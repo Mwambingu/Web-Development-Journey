@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  font-weight: normal;
+  text-decoration: underline #36e;
+  color: #36e;
+  letter-spacing: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: #36e;
+  font-size: 75px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: normal;
+  color: #36e;
+  font-size: 50px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: normal;
+  color: #36e;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: #11f395;
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+  background-color: #000;
+  line-height: 2;
+  font-size: 20px;
+}

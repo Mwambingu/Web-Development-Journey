@@ -1,0 +1,74 @@
+/* universal selector */
+
+body {
+  background-color: #2e282a;
+}
+
+h1 {
+  color: #ffc814;
+}
+
+h2 {
+  color: #17bebb;
+}
+
+p,
+label {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #ffc814;
+}
+
+button {
+  font-size: 20px;
+  background-color: #ffc914;
+}
+
+#sign_up {
+  background-color: #17bebb;
+  color: 2e282a;
+}
+
+.tag {
+  color: #2e282a;
+  background-color: #76b041;
+}
+
+/* pseudo classes */
+.vte:hover {
+  font-size: 25px;
+  color: #2e282a;
+  background-color: #17bebb;
+}
+
+p > a:hover {
+  text-decoration: underline;
+}
+
+.post:nth-of-type(3n) {
+  background-color: #665a5e;
+}
+
+/* pseudo elements */
+h2::first-letter {
+  font-size: 50px;
+}
+
+h2::selection {
+  background-color: #17bebb;
+  color: #2e282a;
+}
+
+p::selection {
+  color: #ffc814;
+  background-color: #fff;
+}
+/* attribute selectors */
+
+/* button[class="+vte"] {
+  color: cornflowerblue;
+  background-color: darkred;
+} */

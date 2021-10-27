@@ -1,0 +1,42 @@
+.box {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin-left: 20px;
+  border: 2px solid black;
+}
+
+.grey,
+.grey2 {
+  background-color: #424141;
+}
+
+.green {
+  background-color: darkgreen;
+}
+
+#static .green {
+  position: static;
+  top: 100px;
+}
+
+#relative .green {
+  position: relative;
+  top: 100px;
+}
+
+#absolute {
+  position: relative;
+}
+
+#absolute .green {
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+#fixed .green {
+  position: fixed;
+  top: 0px;
+  right: 600px;
+}

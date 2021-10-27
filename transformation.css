@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap");
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  margin: 20px auto;
+}
+
+section > h1 {
+  font-size: 30px;
+  height: 50px;
+  width: 300px;
+  border: 3px #000 solid;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h1 {
+  transition: 1s;
+}
+
+section > h1:nth-of-type(1) {
+  background-color: #a61c3c;
+  color: #fff;
+}
+section > h1:nth-of-type(2) {
+  background-color: #694a38;
+  color: #fff;
+}
+section > h1:nth-of-type(3) {
+  background-color: #f4ac45;
+  color: #000;
+}
+section > h1:nth-of-type(4) {
+  background-color: #92bfb1;
+  color: #000;
+}
+
+#s_a h1:nth-of-type(1):hover {
+  transform-origin: bottom left;
+  transform: rotate(15deg);
+}
+#s_a h1:nth-of-type(2):hover {
+  transform: scale(0.6) rotate(360deg);
+}
+#s_a h1:nth-of-type(3):hover {
+  transform: translateX(200px) rotate(45deg);
+}
+#s_a h1:nth-of-type(4):hover {
+  transform: scale(1.6) skew(30deg);
+}
+
+#s_b h1:nth-of-type(1):hover {
+  transform-origin: bottom right;
+  transform: rotate(-15deg);
+}
+#s_b h1:nth-of-type(2):hover {
+  transform: rotate(-30deg);
+}
+#s_b h1:nth-of-type(3):hover {
+  transform: rotate(-45deg);
+}
+#s_b h1:nth-of-type(4):hover {
+  transform: rotate(-60deg) translate(200px, 300px);
+}

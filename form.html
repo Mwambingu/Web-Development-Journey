@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <h1>Register Today</h1>
+    <form action="/Wolf.html">
+      <p>
+        <label for="UserName">Enter User Name</label>
+        <input
+          type="text"
+          placeholder="Enter Name"
+          id="UserName"
+          name="UserName"
+        />
+      </p>
+      <p>
+        <label for="password">Enter Password</label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          id="password"
+          name="password"
+        />
+      </p>
+      <p>
+        <label for="favcolor">Select Favourite Color</label>
+        <input type="color" id="favcolor" name="favcolor" />
+      </p>
+      <p>
+        <label for="favnum">Choose your lucky number</label>
+        <input type="number" id="favnum" name="favnum" />
+      </p>
+      <!-- button with a type declaration -->
+      <button type="button">Submit</button>
+      <!-- submits the form by default -->
+      <button type="submit">See a Wolf</button>
+      <!-- Does the same but is an input  -->
+      <input type="submit" value="Click 4 Wolf!!" />
+      <!-- NB: Button submit forms by default only when inside the form -->
+    </form>
+
+    <!-- search hijacking -->
+    <h1>Hijack Reddit</h1>
+    <form action="http://www.reddit.com/search">
+      <input type="text" name="q" />
+      <button>Search Reddit</button>
+    </form>
+
+    <!-- search hijacking -->
+    <h1>Hijack Google</h1>
+    <form action="http://www.google.com/search">
+      <input type="text" name="q" />
+      <button>Search Google</button>
+    </form>
+
+    <!-- search hijacking -->
+    <h1>Hijack Youtube</h1>
+    <form action="http://www.youtube.com/results">
+      <input type="text" name="search_query" />
+      <button>Search Youtube</button>
+    </form>
+
+    <h2>More Inputs</h2>
+
+    <!-- Checkboxes -->
+    <form action="/wolf.html">
+      <label for="agree">I accept the terms</label>
+      <input type="checkbox" name="agree" id="agree" />
+    </form>
+
+    <!-- Radiobuttons -->
+    <form action="/wolf.html">
+      <p>
+        <label for="dog">Dog</label>
+        <input type="radio" name="pet" id="dog" value="dog" />
+        <label for="cat">Cat</label>
+        <input type="radio" name="pet" id="cat" value="cat" />
+        <label for="parrot">Parrot</label>
+        <input type="radio" name="pet" id="parrot" value="parrot" />
+      </p>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Select -->
+    <form action="/wolf.html">
+      <p>
+        <label for="fruit">Choose your favorite fruit</label>
+        <select name="fruit" id="fruit">
+          <option value="">--Please select a fruit--</option>
+          <option value="mango">Mango</option>
+          <option value="pineapple">Pineapple</option>
+          <option value="orange">Orange</option>
+          <option value="banana">Banana</option>
+        </select>
+      </p>
+    </form>
+
+    <!-- Textarea -->
+    <p>
+      <label for="story">How did you meet your fast pet??</label>
+      <br />
+      <textarea
+        name="story"
+        id="story"
+        placeholder="Write Here...."
+        cols="30"
+        rows="10"
+      >
+      </textarea>
+    </p>
+
+    <form action="/Wolf.html">
+      <label for="user">Enter Username</label>
+      <input
+        type="text"
+        name="user"
+        id="user"
+        minlength="5"
+        maxlength="12"
+        required
+      />
+      <label for="passkey">Enter Password</label>
+      <input
+        type="password"
+        name="passkey"
+        id="passkey"
+        minlength="5"
+        maxlength="12"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
